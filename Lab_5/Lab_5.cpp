@@ -1,11 +1,12 @@
 ﻿#include <iostream>
 #include "Longlong.h"
-
+#include <Windows.h>
 using namespace std;
 
 int main() {
     Longlong a, b;
-
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
     cout << "Введіть значення a:\n";
     a.Read();
     cout << "Введіть значення b:\n";
